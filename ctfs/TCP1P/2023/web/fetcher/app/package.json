@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "proxy-agent": "6.2.2"
+    "proxy-agent": "6.5.0"
   },
   "devDependencies": {
     "bun-types": "latest"
