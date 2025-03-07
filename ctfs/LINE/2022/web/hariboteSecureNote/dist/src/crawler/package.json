@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioredis": "^4.28.2",
+    "ioredis": "^4.28.5",
     "puppeteer": "^13.1.3"
   }
 }
