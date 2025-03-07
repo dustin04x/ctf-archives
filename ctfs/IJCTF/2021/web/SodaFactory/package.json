@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "sodajs": "^0.4.10",
     "vm2": "^3.9.3"
   }
