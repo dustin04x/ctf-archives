@@ -9,7 +9,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.3",
     "cookie-parser": "^1.4.5",
     "express": "^4.17.1",
     "puppeteer": "^8.0.0"
