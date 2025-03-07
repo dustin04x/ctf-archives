@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "argon2": "^0.28.2",
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.3",
     "connect-redis": "^6.0.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
