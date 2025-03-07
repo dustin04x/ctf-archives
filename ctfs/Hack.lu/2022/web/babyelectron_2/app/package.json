@@ -20,7 +20,7 @@
     "electron": "^15.3.0"
   },
   "dependencies": {
-    "@doyensec/electronegativity": "^1.9.1",
+    "@doyensec/electronegativity": "^1.10.3",
     "dompurify": "^2.4.0"
   }
 }
