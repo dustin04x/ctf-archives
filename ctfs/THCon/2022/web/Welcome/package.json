@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.0.1",
   "dependencies": {
-    "cookie": "^0.4.2",
+    "cookie": "^0.7.2",
     "socket.io-client": "^4.4.1"
   },
   "devDependencies": {
