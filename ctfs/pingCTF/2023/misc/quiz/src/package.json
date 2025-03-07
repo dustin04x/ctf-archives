@@ -5,6 +5,6 @@
 	"author": "essor.",
 	"license": "MIT",
 	"dependencies": {
-		"random-words": "2.0.0"
+		"random-words": "2.0.1"
 	}
 }
