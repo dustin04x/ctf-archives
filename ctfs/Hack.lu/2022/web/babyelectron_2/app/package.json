@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@doyensec/electronegativity": "^1.9.1",
-    "dompurify": "^2.4.0"
+    "dompurify": "^2.5.8"
   }
 }
