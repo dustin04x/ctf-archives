@@ -14,7 +14,7 @@
   "author": "jkokatsu",
   "license": "Apache-2.0",
   "dependencies": {
-    "ejs": "^3.1.9",
+    "ejs": "^3.1.10",
     "express": "^4.18.2",
     "mysql": "^2.18.1"
   }
