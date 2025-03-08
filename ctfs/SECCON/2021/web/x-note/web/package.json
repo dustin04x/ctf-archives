@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "express-session": "^1.17.2",
     "lodash": "^4.17.21"
   }
