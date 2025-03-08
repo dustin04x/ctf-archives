@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "fastify": "^3.23.1",
+    "fastify": "^3.29.5",
     "ljson": "^2.1.0"
   }
 }
