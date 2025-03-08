@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "fastify": "^3.21.6"
+    "fastify": "^3.29.5"
   }
 }
