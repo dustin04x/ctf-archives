@@ -6,6 +6,6 @@
   "author": "hakatashi",
   "dependencies": {
     "@hono/node-server": "^1.2.0",
-    "hono": "^3.9.1"
+    "hono": "^3.12.12"
   }
 }
