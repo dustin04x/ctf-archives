@@ -567,10 +567,12 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-docker-compose@^0.23.6:
-  version "0.23.6"
-  resolved "https://registry.yarnpkg.com/docker-compose/-/docker-compose-0.23.6.tgz"
-  integrity sha512-y3Q8MkwG862rNqkvEQG59/7Fi2/fzs3NYDCvqUAAD+z0WGs2qcJ9hRcn34hWgWv9ouPkFqe3Vwca0h+4bIIRWw==
+docker-compose@^0.24.8:
+  version "0.24.8"
+  resolved "https://registry.yarnpkg.com/docker-compose/-/docker-compose-0.24.8.tgz#6c125e6b9e04cf68ced47e2596ef2bb93ee9694e"
+  integrity sha512-plizRs/Vf15H+GCVxq2EUvyPK7ei9b/cVesHvjnX4xaXjM9spHe2Ytq0BitndFgvTJ3E3NljPNUEl7BAN43iZw==
+  dependencies:
+    yaml "^2.2.2"
 
 doctrine@^3.0.0:
   version "3.0.0"
@@ -1845,6 +1847,11 @@ yallist@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
+
+yaml@^2.2.2:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.7.0.tgz#aef9bb617a64c937a9a748803786ad8d3ffe1e98"
+  integrity sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==
 
 yargs-parser@^20.2.2:
   version "20.2.5"
