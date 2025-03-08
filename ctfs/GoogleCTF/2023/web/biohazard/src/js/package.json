@@ -9,7 +9,7 @@
   "author": "jkokatsu",
   "license": "Apache-2.0",
   "dependencies": {
-    "safevalues": "^0.4.3"
+    "safevalues": "^0.7.0"
   },
   "devDependencies": {
     "parcel": "^2.8.3",
