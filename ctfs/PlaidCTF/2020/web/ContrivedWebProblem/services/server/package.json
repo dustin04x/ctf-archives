@@ -10,7 +10,7 @@
     "build": "yarn run build-client && yarn run build-server"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "express-http-proxy": "^1.6.0",
     "fs-extra": "^9.0.0",
     "nconf": "^0.10.0"
