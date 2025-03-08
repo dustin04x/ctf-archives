@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@zensors/expedite": "^1.0.0",
-    "@zensors/sheriff": "^2.0.0",
+    "@zensors/sheriff": "^2.1.1",
     "beautiful-log": "^2.0.0-6",
     "body-parser": "^1.19.0",
     "docker-compose": "^0.23.6",
