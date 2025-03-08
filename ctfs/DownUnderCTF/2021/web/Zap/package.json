@@ -4,7 +4,7 @@
   "main": "src/app.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "morgan": "^1.10.0",
     "multer": "^1.4.3",
     "nested-object-assign": "1.0.3"
