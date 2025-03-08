@@ -14,7 +14,7 @@
     "content-disposition": "^0.5.4",
     "dompurify": "^3.0.5",
     "marked": "^7.0.5",
-    "socket.io-client": "^4.7.2",
+    "socket.io-client": "^4.8.1",
     "vue": "^3.2.47",
     "vuetify": "^3.3.14",
     "xfetch-js": "^0.6.0",
