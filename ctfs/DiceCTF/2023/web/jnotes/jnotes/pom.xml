@@ -13,7 +13,7 @@
     <dependency>
       <groupId>io.javalin</groupId>
       <artifactId>javalin</artifactId>
-      <version>5.3.1</version>
+      <version>5.6.5</version>
     </dependency>
   </dependencies>
   <build>
@@ -25,8 +25,7 @@
         <version>3.4.1</version>
         <configuration>
             <transformers>
-                <transformer
-                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                     <mainClass>dev.arxenix.App</mainClass> <!-- Here you should put the main class of your application -->
                 </transformer>
             </transformers>
