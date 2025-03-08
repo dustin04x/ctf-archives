@@ -6,7 +6,7 @@
   "type": "module",
   "dependencies": {
     "ioredis": "^4.17.3",
-    "puppeteer": "^5.0.0"
+    "puppeteer": "^5.5.0"
   },
   "devDependencies": {},
   "scripts": {
