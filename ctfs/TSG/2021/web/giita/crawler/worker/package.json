@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
     "@types/ioredis": "^4.27.4",
-    "@types/node": "^16.9.4",
+    "@types/node": "^16.18.126",
     "@types/puppeteer": "^5.4.4",
     "ioredis": "^4.27.9",
     "puppeteer": "^10.2.0",
