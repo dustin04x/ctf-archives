@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
-    "ejs": "3.1.9",
+    "ejs": "3.1.10",
     "express": "4.17.2",
     "morgan": "^1.10.0"
   },
