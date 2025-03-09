@@ -21,6 +21,6 @@
 	"type": "module",
 	"author": "renbou",
 	"dependencies": {
-		"@zerodevx/svelte-toast": "^0.9.5"
+		"@zerodevx/svelte-toast": "^0.9.6"
 	}
 }
