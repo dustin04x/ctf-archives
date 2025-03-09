@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
-    "cookies-next": "^2.0.4",
+    "cookies-next": "^2.1.2",
     "heroicons": "^1.0.5",
     "next": "12.1.0",
     "react": "17.0.2",
