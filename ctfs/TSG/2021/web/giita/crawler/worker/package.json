@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "dependencies": {
-    "@types/ioredis": "^4.27.4",
+    "@types/ioredis": "^4.28.10",
     "@types/node": "^16.9.4",
     "@types/puppeteer": "^5.4.4",
     "ioredis": "^4.27.9",
