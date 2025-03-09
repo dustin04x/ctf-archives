@@ -12,7 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^1.0.5",
+    "@heroicons/react": "^1.0.6",
     "cookies-next": "^2.0.4",
     "heroicons": "^1.0.5",
     "next": "12.1.0",
