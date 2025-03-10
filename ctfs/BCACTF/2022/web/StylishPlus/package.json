@@ -12,7 +12,7 @@
     "@fastify/static": "^5.0.2",
     "@sinclair/typebox": "^0.23.4",
     "cuid": "^2.1.8",
-    "fastify": "^3.27.4",
+    "fastify": "^3.29.5",
     "puppeteer": "^14.2.1"
   },
   "devDependencies": {
