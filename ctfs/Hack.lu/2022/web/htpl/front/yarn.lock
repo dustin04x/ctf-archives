@@ -409,10 +409,10 @@ vite-plugin-handlebars@^1.6.0:
     handlebars "^4.7.6"
     vite "^2.0.0"
 
-vite-plugin-monaco-editor@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.npmjs.org/vite-plugin-monaco-editor/-/vite-plugin-monaco-editor-1.0.10.tgz"
-  integrity sha512-7yTAFIE0SefjCmfnjrvXOl53wkxeSASc/ZIcB5tZeEK3vAmHhveV8y3f90Vp8b+PYdbUipjqf91mbFbSENkpcw==
+vite-plugin-monaco-editor@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-monaco-editor/-/vite-plugin-monaco-editor-1.1.0.tgz#a6238c2e13d5e98dd54a1bc51f6f189325219de3"
+  integrity sha512-IvtUqZotrRoVqwT0PBBDIZPNraya3BxN/bfcNfnxZ5rkJiGcNtO5eAOWWSgT7zullIAEqQwxMU83yL9J5k7gww==
 
 vite@^2.0.0:
   version "2.9.5"
