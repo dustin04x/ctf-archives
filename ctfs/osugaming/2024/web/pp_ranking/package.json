@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "express-session": "^1.18.0",
+    "express-session": "^1.18.1",
     "hbs": "^4.2.0",
     "osu-parsers": "^4.1.6",
     "osu-standard-stable": "^5.0.0"
