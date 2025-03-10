@@ -637,10 +637,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"devtools-protocol@npm:0.0.969999":
-  version: 0.0.969999
-  resolution: "devtools-protocol@npm:0.0.969999"
-  checksum: c67e2a40864edfbdc892eb6db2b6edf82a277af5bcc070741a6b39ffe052955a3c1fb99a0bb029631b326d290861a79deea423634d5a441b9faeab2884208396
+"devtools-protocol@npm:0.0.981744":
+  version: 0.0.981744
+  resolution: "devtools-protocol@npm:0.0.981744"
+  checksum: 609901bff551f5fbe98e272bdda7269de527e28fab138de371ffd7e9a06fa68ca2eec2e961bd1cd6fd98223ccee562c55b7ce3235d4e37cc8d85d6681bc45593
   languageName: node
   linkType: hard
 
@@ -1089,7 +1089,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"https-proxy-agent@npm:5.0.0, https-proxy-agent@npm:^5.0.0":
+"https-proxy-agent@npm:5.0.1":
+  version: 5.0.1
+  resolution: "https-proxy-agent@npm:5.0.1"
+  dependencies:
+    agent-base: 6
+    debug: 4
+  checksum: 571fccdf38184f05943e12d37d6ce38197becdd69e58d03f43637f7fa1269cf303a7d228aa27e5b27bbd3af8f09fd938e1c91dcfefff2df7ba77c20ed8dfc765
+  languageName: node
+  linkType: hard
+
+"https-proxy-agent@npm:^5.0.0":
   version: 5.0.0
   resolution: "https-proxy-agent@npm:5.0.0"
   dependencies:
@@ -1991,15 +2001,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer@npm:^13.5.2":
-  version: 13.5.2
-  resolution: "puppeteer@npm:13.5.2"
+"puppeteer@npm:^13.7.0":
+  version: 13.7.0
+  resolution: "puppeteer@npm:13.7.0"
   dependencies:
     cross-fetch: 3.1.5
     debug: 4.3.4
-    devtools-protocol: 0.0.969999
+    devtools-protocol: 0.0.981744
     extract-zip: 2.0.1
-    https-proxy-agent: 5.0.0
+    https-proxy-agent: 5.0.1
     pkg-dir: 4.2.0
     progress: 2.0.3
     proxy-from-env: 1.1.0
@@ -2007,7 +2017,7 @@ __metadata:
     tar-fs: 2.1.1
     unbzip2-stream: 1.4.3
     ws: 8.5.0
-  checksum: 5f03c8a606067ae114ea646d9773b76b3e2c8f0654ef4453c5f813686a218481d934708fefc607822b75673c6e82b812755892f57d02e42a0dadeaabe3c56138
+  checksum: 4062b3ac3330e70d58095c1e0c5a46cada39a3fc5608e0e0e204448a400aef4d785a3b21d9e7733b2b2dc8cf686a476abf016f05d2e9108b3753dd41d62b9d1c
   languageName: node
   linkType: hard
 
@@ -2535,11 +2545,11 @@ __metadata:
 
 "typescript@patch:typescript@^4.5.2#~builtin<compat/typescript>":
   version: 4.5.2
-  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=ddd1e8"
+  resolution: "typescript@patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 24a439e062a05e3285a4f0e8a40644116ecdca89f3e908bed01e5a01b9aee747e3bcf0e85fe9e017e5ebf0c0863437c39479f2616f55a244c2d82d37022cdc4f
+  checksum: 53838d56aba6fcc947d63aa0771e5d966b1b648fddafed6e221d7f38c71219c4e036ece8cfe9e35ed80cf5a35ff4eb958934c993f99c3233773ec4f9ccd53f69
   languageName: node
   linkType: hard
 
@@ -2727,7 +2737,7 @@ __metadata:
     body-parser: ^1.19.0
     express: ^4.17.1
     fs-extra: ^10.0.0
-    puppeteer: ^13.5.2
+    puppeteer: ^13.7.0
     sqlite3: ^5.0.2
     typescript: ^4.5.2
     uuid: ^8.3.2
