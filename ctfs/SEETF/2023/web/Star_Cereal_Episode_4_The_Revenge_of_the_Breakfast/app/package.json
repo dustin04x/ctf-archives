@@ -5,6 +5,6 @@
     "express-fileupload": "1.4.0",
     "serialize-javascript": "6.0.1",
     "xss-filters": "1.2.7",
-    "cookie-parser": "1.4.6"
+    "cookie-parser": "1.4.7"
   }
 }
