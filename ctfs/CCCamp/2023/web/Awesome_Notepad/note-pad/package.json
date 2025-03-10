@@ -15,7 +15,7 @@
     "dependencies": {
         "@material-ui/core": "latest",
         "@material-ui/icons": "^4.5.1",
-        "apollo-boost": "^0.4.4",
+        "apollo-boost": "^0.4.9",
         "clsx": "latest",
         "cors": "^2.8.5",
         "ejs": "^2.7.1",
