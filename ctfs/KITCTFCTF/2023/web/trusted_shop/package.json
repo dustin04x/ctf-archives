@@ -20,6 +20,6 @@
     "@prisma/client": "^4.10.1",
     "body-parser": "^1.20.2",
     "polka": "^0.5.2",
-    "puppeteer": "^19.7.5"
+    "puppeteer": "^19.11.1"
   }
 }
