@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fastify/cookie": "^9.3.0",
+    "@fastify/cookie": "^9.4.0",
     "@fastify/multipart": "^8.1.0",
     "@fastify/session": "^10.7.0",
     "@fastify/static": "^6.9.0",
