@@ -3247,12 +3247,17 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1:
+mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
   resolved "http://hi3gprivatenpm.azurewebsites.net/mkdirp/-/mkdirp-0.5.1.tgz#30057438eac6cf7f8c4767f38648d6697d75c903"
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
+
+mkdirp@~1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
+  integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
 ms@2.0.0:
   version "2.0.0"
@@ -3330,12 +3335,12 @@ node-int64@^0.4.0:
   resolved "http://hi3gprivatenpm.azurewebsites.net/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
   integrity sha1-h6kGXNs1XTGC2PlM4RGIuCXGijs=
 
-node-json-db@^1.0.2:
-  version "1.0.2"
-  resolved "http://hi3gprivatenpm.azurewebsites.net/node-json-db/-/node-json-db-1.0.2.tgz#d1d1a2014667fa8aca8dd42666ebea00ed864888"
-  integrity sha512-4TYcJRT57cl7mAL2lLI+k5eE9sz9c0HDq9HBtBuSn7UJSuJIpKci8nceKWcFbgESx18X5TTydmvSYvWY2fKqew==
+node-json-db@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/node-json-db/-/node-json-db-1.6.0.tgz#96e17f9f1f1fb268043df7e029c3897a151c6f26"
+  integrity sha512-Cpvuqejlx354aH5d1uqK9KB0/LOKslnexqgOrhgCqcvvzJ0I2hrAEA7eIct6hRqS9gxnuge+eXqd++za87tchA==
   dependencies:
-    mkdirp "0.5.x"
+    mkdirp "~1.0.4"
 
 node-modules-regexp@^1.0.0:
   version "1.0.0"
