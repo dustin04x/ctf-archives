@@ -35,7 +35,7 @@
 		"@shelf/aws-lambda-tesseract": "^4.0.3",
 		"@types/fs-extra": "^11.0.1",
 		"@types/mime-types": "^2.1.1",
-		"@types/random-name": "^0.1.0",
+		"@types/random-name": "^0.1.2",
 		"fs-extra": "^11.1.1",
 		"mime-types": "^2.1.35",
 		"path-extra": "^4.3.0",
