@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <kotlin.version>1.8.10</kotlin.version>
+        <kotlin.version>1.9.25</kotlin.version>
         <ktor.version>2.3.4</ktor.version>
         <main.class>io.ktor.server.netty.EngineMain</main.class>
     </properties>
