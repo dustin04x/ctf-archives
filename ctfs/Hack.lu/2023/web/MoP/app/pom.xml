@@ -23,7 +23,7 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <kotlin.version>1.8.10</kotlin.version>
-        <ktor.version>2.3.4</ktor.version>
+        <ktor.version>2.3.13</ktor.version>
         <main.class>io.ktor.server.netty.EngineMain</main.class>
     </properties>
 
