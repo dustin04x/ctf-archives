@@ -9,7 +9,7 @@
 		"start:watch": "nodemon index.js"
 	},
 	"dependencies": {
-		"ejs": "^3.1.9",
+		"ejs": "^3.1.10",
 		"express-rate-limit": "^7.1.5",
 		"puppeteer": "^21.6.0"
 	},
