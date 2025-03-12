@@ -15,7 +15,7 @@
     "@types/dockerode": "^2.5.29",
     "@types/node": "^14.0.4",
     "@types/tar-stream": "^2.1.0",
-    "dockerode": "^3.2.0",
+    "dockerode": "^3.3.5",
     "p-limit": "^2.3.0",
     "tar-stream": "^2.1.2",
     "typescript": "^3.9.3"
