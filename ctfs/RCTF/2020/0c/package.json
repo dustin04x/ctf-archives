@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@types/dockerode": "^2.5.29",
+    "@types/dockerode": "^2.5.34",
     "@types/node": "^14.0.4",
     "@types/tar-stream": "^2.1.0",
     "dockerode": "^3.2.0",
