@@ -8,7 +8,7 @@
     "express": "^4.17.3",
     "node": "^17.7.2",
     "puppeteer": "^13.5.2",
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.9.2"
   },
   "scripts": {
     "build": "tsc",
