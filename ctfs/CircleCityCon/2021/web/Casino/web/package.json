@@ -20,7 +20,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "sqlite": "^4.0.21",
+    "sqlite": "^4.2.1",
     "sqlite3": "^5.0.2"
   }
 }
