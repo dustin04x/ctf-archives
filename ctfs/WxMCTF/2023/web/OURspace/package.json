@@ -6,7 +6,7 @@
     "setup": "npm install && npx prisma db push"
   },
   "dependencies": {
-    "@prisma/client": "^4.9.0",
+    "@prisma/client": "^4.16.2",
     "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
