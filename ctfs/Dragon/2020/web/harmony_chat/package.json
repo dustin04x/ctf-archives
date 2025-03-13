@@ -10,7 +10,7 @@
   "license": "CTF",
   "dependencies": {
     "ajv": "^6.12.6",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "ftpd": "^0.2.16",
     "javascript-serializer": "^1.0.0",
     "tslib": "^2.0.3",
