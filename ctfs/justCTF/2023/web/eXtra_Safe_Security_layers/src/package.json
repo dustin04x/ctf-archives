@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "cookie-parser": "1.4.6",
+    "cookie-parser": "1.4.7",
     "ejs": "3.1.8",
     "express-rate-limit": "6.7.0",
     "express-xss-sanitizer": "1.1.6",
