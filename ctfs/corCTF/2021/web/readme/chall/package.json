@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@mozilla/readability": "^0.4.1",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "jsdom": "^16.5.0",
     "node-fetch": "^2.6.1",
     "socket.io": "^4.0.1"
