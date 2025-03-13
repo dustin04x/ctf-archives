@@ -2,7 +2,7 @@
   "name": "queue-up",
   "version": "1.0.0",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
+    "cookie-parser": "^1.4.7",
     "csvtojson": "^2.0.10",
     "express": "^4.18.2",
     "pg": "^8.8.0",
