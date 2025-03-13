@@ -9,7 +9,7 @@
   },
   "author": "",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
+    "cookie-parser": "^1.4.7",
     "dompurify": "^2.4.3",
     "express": "^4.18.2",
     "jsdom": "^21.1.0",
