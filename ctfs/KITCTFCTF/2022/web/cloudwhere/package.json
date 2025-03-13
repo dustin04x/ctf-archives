@@ -5,7 +5,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@hapi/hapi": "^20.2.2",
+    "@hapi/hapi": "^20.3.0",
     "@hapi/inert": "^6.0.5"
   },
   "devDependencies": {
