@@ -33,7 +33,7 @@
     "chai-as-promised": "^7.1.1",
     "immutable": "^4.2.2",
     "pg": "^8.8.0",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "socket.io": "^4.5.4",
     "typeorm": "^0.3.11",
     "zod": "^3.20.2"
