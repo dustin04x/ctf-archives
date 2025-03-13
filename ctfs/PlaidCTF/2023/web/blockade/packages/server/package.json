@@ -29,7 +29,7 @@
   "dependencies": {
     "@puzzled/messages": "workspace:^",
     "@puzzled/types": "workspace:^",
-    "async-mutex": "^0.4.0",
+    "async-mutex": "^0.5.0",
     "chai-as-promised": "^7.1.1",
     "immutable": "^4.2.2",
     "pg": "^8.8.0",
