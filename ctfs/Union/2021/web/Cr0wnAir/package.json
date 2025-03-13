@@ -9,7 +9,7 @@
     },
     "author": "hyperreality",
     "dependencies": {
-        "express": "4.17.1",
+        "express": "4.21.2",
         "jpv": "2.0.1",
         "jwt-simple": "0.5.2"
     }
