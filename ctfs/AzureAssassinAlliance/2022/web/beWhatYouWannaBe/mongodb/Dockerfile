@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:8.0.5
 
 COPY start.sh /
 RUN chmod 777 /start.sh
