@@ -13,7 +13,7 @@
     "jquery": "^3.6.0",
     "js-cookie": "^2.2.1",
     "jwt-decode": "^3.1.2",
-    "openvidu-browser": "^2.18.1",
+    "openvidu-browser": "^2.31.0",
     "react": "^17.0.2",
     "react-card-flip": "^1.1.1",
     "react-dom": "^17.0.2",
