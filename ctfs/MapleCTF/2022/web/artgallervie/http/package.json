@@ -8,7 +8,7 @@
     "dependencies": {
         "axios": "^0.27.2",
         "ejs": "^3.1.8",
-        "express": "~4.18.1",
+        "express": "~4.21.2",
         "express-fileupload": "^1.4.0",
         "express-session": "^1.17.3",
         "ftpd": "^0.2.16",
