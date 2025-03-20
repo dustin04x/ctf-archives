@@ -6,7 +6,7 @@
         "start": "echo ERR"
     },
     "dependencies": {
-        "axios": "^0.27.2",
+        "axios": "^0.29.0",
         "ejs": "^3.1.8",
         "express": "~4.18.1",
         "express-fileupload": "^1.4.0",
