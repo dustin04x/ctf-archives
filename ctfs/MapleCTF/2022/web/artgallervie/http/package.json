@@ -12,7 +12,7 @@
         "express-fileupload": "^1.4.0",
         "express-session": "^1.17.3",
         "ftpd": "^0.2.16",
-        "redis": "^4.3.0",
+        "redis": "^4.7.0",
         "node-serialize": "^0.0.4"
     }
 }
