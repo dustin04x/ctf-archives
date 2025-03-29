@@ -1,4 +1,4 @@
-FROM node:18.12.0-slim
+FROM node:18.20.8-slim
 ENV NODE_ENV=production
 
 RUN apt-get update \
