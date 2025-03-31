@@ -1,4 +1,4 @@
-FROM node:18.1.0-bullseye-slim
+FROM node:18.20.8-bullseye-slim
 WORKDIR /app
 COPY . ./
 RUN npm i
