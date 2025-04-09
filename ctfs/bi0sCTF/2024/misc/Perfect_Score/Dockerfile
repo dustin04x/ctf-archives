@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.13.3-alpine3.21
 
 RUN apk update
 RUN apk add socat
