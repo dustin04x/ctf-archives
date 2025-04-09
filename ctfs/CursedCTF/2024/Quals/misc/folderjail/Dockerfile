@@ -1,4 +1,4 @@
-frOm          python:3.11-slim as                superb33tlegamer
+frOm          python:3.13.3-slim as                superb33tlegamer
 run pip install --no-cache-dir Folders
 
 Run apt update && apt install -y socat
