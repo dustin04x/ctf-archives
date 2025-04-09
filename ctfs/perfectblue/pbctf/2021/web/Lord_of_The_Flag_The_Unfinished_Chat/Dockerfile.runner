@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:20.04
 
 COPY ./pbchat_1.0.0_amd64.deb /tmp/pbchat_1.0.0_amd64.deb
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y /tmp/pbchat_1.0.0_amd64.deb curl tightvncserver icewm
