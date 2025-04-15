@@ -1,4 +1,4 @@
-FROM python:3.8.16-slim-bullseye
+FROM python:3.13.3-slim-bullseye
 
 RUN useradd ctf
 
