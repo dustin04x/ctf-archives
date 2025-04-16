@@ -1,4 +1,4 @@
-FROM mysql:8.0.28-debian
+FROM mysql:8.0.42-debian
 
 EXPOSE 3306
 
