@@ -11,6 +11,6 @@
     "lil-uuid": "^0.1.1",
     "memcached": "^2.2.2",
     "memcached-promise": "^1.0.1",
-    "node-fetch": "^2.6.9"
+    "node-fetch": "^2.7.0"
   }
 }
