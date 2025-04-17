@@ -1,4 +1,4 @@
-FROM nginx:1.22.1
+FROM nginx:1.27.5
 
 COPY html /app
 COPY ./templates /etc/nginx/templates
