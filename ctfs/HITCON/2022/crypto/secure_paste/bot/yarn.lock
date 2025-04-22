@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-playwright-core@1.27.1:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.27.1.tgz#840ef662e55a3ed759d8b5d3d00a5f885a7184f4"
-  integrity sha512-9EmeXDncC2Pmp/z+teoVYlvmPWUC6ejSSYZUln7YaP89Z6lpAaiaAnqroUt/BoLo8tn7WYShcfaCh+xofZa44Q==
+playwright-core@1.52.0:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.52.0.tgz#238f1f0c3edd4ebba0434ce3f4401900319a3dca"
+  integrity sha512-l2osTgLXSMeuLZOML9qYODUQoPPnUsKsb5/P6LJ2e6uPKXUdPK5WYhN4z03G+YNbWmGDY4YENauNu4ZKczreHg==
 
-playwright-firefox@^1.27.1:
-  version "1.27.1"
-  resolved "https://registry.yarnpkg.com/playwright-firefox/-/playwright-firefox-1.27.1.tgz#724072fab6a7f1957e8e953d3f3e00cfb527c1bd"
-  integrity sha512-AkPARIZQNSfEKyPHrYMjy45kOv59tXcRNdRldsrN/FmgIjd76irY1e1GD0wjPCwqqItDmOpX8UhORSM9ty7hDA==
+playwright-firefox@^1.51.1:
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/playwright-firefox/-/playwright-firefox-1.52.0.tgz#d62c9801da3fd352f5f8e740b65cd608b708cd7c"
+  integrity sha512-x4niD4HHffaYNmz0XwgXqvf7NUhCmAbcpa+DX16kAacd+6T8cwf+W/+Q0S+VLsYpQ2BJowR2HuJanO1Ge1Phzg==
   dependencies:
-    playwright-core "1.27.1"
+    playwright-core "1.52.0"
