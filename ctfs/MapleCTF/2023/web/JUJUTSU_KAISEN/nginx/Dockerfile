@@ -1,4 +1,4 @@
-FROM nginx:1.25.2-alpine
+FROM nginx:1.28.0-alpine
 
 RUN mkdir -p /etc/nginx/ssl
 
