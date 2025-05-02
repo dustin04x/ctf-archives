@@ -5,7 +5,7 @@
     "@fastify/formbody": "^7.0.0",
     "@fastify/session": "^9.0.0",
     "argon2": "^0.28.5",
-    "ejs": "^3.1.8",
+    "ejs": "^3.1.10",
     "fastify": "^4.3.0",
     "mailparser": "^3.5.0",
     "point-of-view": "^6.0.0",
