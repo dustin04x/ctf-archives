@@ -1,4 +1,4 @@
-FROM postgres:15.2-bullseye
+FROM postgres:15.13-bullseye
 
 COPY postgresql.conf /etc/postgresql/postgresql.conf
 COPY pre-docker-entrypoint.sh /usr/local/bin/pre-docker-entrypoint.sh
