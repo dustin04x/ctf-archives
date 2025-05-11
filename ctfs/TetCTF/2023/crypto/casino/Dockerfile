@@ -1,4 +1,4 @@
-FROM golang:1.19-alpine
+FROM golang:1.24.3-alpine
 
 RUN apk add socat
 
