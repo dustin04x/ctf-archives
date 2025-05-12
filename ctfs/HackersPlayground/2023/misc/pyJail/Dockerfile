@@ -1,4 +1,4 @@
-FROM python:3.11.4
+FROM python:3.12.10
 
 RUN apt-get update
 RUN apt-get install -y socat
