@@ -18,7 +18,7 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
-    "@solidjs/meta": "^0.28.2",
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.8.2",
     "@types/bcryptjs": "^2.4.2",
     "bcryptjs": "^2.4.3",
