@@ -1,5 +1,5 @@
 # Node docker image or ubuntu docker image and install node?
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 # Create app directory
 WORKDIR /usr/src/app
