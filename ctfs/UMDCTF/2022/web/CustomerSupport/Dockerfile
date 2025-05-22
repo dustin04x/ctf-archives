@@ -1,7 +1,7 @@
 # Dockerfile
 
 # base image
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 
 # create & set working directory
 RUN mkdir -p /usr/src
