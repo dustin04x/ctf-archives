@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:23.11.1-alpine3.21
 ENV CHROME_BIN="/usr/bin/chromium-browser"\
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true"
 RUN apk update \
