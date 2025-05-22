@@ -14,7 +14,7 @@ WORKDIR /app/server
 
 RUN cargo build --release && cp target/release/server /app/run && cargo clean
 
-FROM debian:bookworm-slim
+FROM debian:12.11-slim
 
 COPY --from=build /app/run /app/run
 COPY ./flag.txt /app/flag.txt
