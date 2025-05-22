@@ -1,4 +1,4 @@
-FROM debian:latest AS goldinospizza
+FROM debian:12.11 AS goldinospizza
 
 # USERS
 RUN addgroup --system appgroup --gid 1000 && adduser --ingroup appgroup --system appuser --uid 1000
