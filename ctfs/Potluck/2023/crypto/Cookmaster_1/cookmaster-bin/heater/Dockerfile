@@ -1,4 +1,4 @@
-FROM debian:bookworm-20231218
+FROM debian:12.11
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get -y install openssl && \
