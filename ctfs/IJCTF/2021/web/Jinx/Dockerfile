@@ -1,4 +1,4 @@
-FROM openresty/openresty
+FROM openresty/openresty:1.27.1.2-1-bullseye
 
 RUN apt-get update
 RUN apt-get install -y iputils-ping
