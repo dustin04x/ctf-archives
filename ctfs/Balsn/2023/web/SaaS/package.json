@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "fastify": "^4.22.2",
+    "fastify": "^4.29.1",
     "uuid": "^9.0.1"
   },
   "description": "Schema as a Service, SaaS again.",
