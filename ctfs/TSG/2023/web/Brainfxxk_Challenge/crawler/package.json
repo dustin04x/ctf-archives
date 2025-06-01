@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "puppeteer": "^20.4.0",
+    "puppeteer": "^20.9.0",
     "redis": "^4.6.6"
   }
 }
