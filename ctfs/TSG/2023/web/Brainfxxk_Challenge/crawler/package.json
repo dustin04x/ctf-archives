@@ -4,6 +4,6 @@
   "type": "module",
   "dependencies": {
     "puppeteer": "^20.4.0",
-    "redis": "^4.6.6"
+    "redis": "^4.7.1"
   }
 }
