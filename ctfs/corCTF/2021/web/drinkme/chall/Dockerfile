@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.13.4
 RUN useradd challenge && mkdir /app && pip install flask
 
 WORKDIR /app
