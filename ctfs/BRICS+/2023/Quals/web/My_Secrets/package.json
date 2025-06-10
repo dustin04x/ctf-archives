@@ -9,7 +9,7 @@
     "express-rate-limit": "^7.0.1",
     "express-session": "^1.17.3",
     "helmet": "^7.0.0",
-    "mongoose": "^7.5.2",
+    "mongoose": "^7.8.7",
     "puppeteer": "^21.2.1"
   }
 }
