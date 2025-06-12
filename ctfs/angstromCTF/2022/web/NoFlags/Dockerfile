@@ -1,4 +1,4 @@
-FROM php:8.1.5-apache-bullseye
+FROM php:8.4.8-apache-bullseye
 
 # executable that prints the flag
 COPY printflag /printflag
