@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12.11
 RUN apt update
 RUN apt install -y socat
 RUN mkdir /server
