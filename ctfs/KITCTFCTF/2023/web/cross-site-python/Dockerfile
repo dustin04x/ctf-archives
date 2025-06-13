@@ -1,6 +1,6 @@
 # docker build -t cross-site-python . && docker run -p 5000:5000 cross-site-python
 
-FROM python:3.9-slim
+FROM python:3.13.5-slim
 WORKDIR /server
 
 RUN apt-get update && apt-get -y install wget bzip2 \
