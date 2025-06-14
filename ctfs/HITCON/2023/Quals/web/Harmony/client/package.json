@@ -12,7 +12,7 @@
     "@mdi/font": "^7.2.96",
     "@types/marked": "^5.0.1",
     "content-disposition": "^0.5.4",
-    "dompurify": "^3.0.5",
+    "dompurify": "^3.2.6",
     "marked": "^7.0.5",
     "socket.io-client": "^4.7.2",
     "vue": "^3.2.47",
