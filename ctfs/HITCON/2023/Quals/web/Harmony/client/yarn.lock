@@ -2028,10 +2028,10 @@ vue@^3.2.47:
     "@vue/server-renderer" "3.3.4"
     "@vue/shared" "3.3.4"
 
-vuetify@^3.3.14:
-  version "3.3.14"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.3.14.tgz#623a816f903a8f86530e3d72246c4d6cc1cfda22"
-  integrity sha512-5kGnahj/cX5989bV9XM432k/BJ11fRdJ3CCdISjo1auCz+rLEeLJdjMeqyCJVd0FZsWcE1Z8799s9sLdLM3Deg==
+vuetify@^3.8.6:
+  version "3.8.9"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.8.9.tgz#cc31bd2bf8695ac4788316c449ff67fac68a1f35"
+  integrity sha512-X9kCxeqf7w5sca2Mfn4NCVsDDimi81jxKyqsZHjW0XG/rTdtwRFKttxOcv0Mmi+67ulPjDZywA7pBFK0rxoafA==
 
 web-streams-polyfill@^3.0.3, web-streams-polyfill@^3.1.1:
   version "3.2.1"
