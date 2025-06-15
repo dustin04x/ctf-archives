@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.13.5-slim
 RUN apt update
 RUN apt install python3-pip -y
 
