@@ -1,4 +1,4 @@
-FROM python:3.10.9
+FROM python:3.13.5
 
 RUN DEBIAN_FRONTEND=noninteractive apt update && DEBIAN_FRONTEND=noninteractive apt upgrade -y 
 
