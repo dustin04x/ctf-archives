@@ -1,4 +1,4 @@
-FROM php:8.3.1-apache
+FROM php:8.3.22-apache
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive && \
     rm -rf /var/lib/apt/lists/*
