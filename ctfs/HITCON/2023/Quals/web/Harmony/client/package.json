@@ -16,7 +16,7 @@
     "marked": "^7.0.5",
     "socket.io-client": "^4.7.2",
     "vue": "^3.2.47",
-    "vuetify": "^3.3.14",
+    "vuetify": "^3.8.7",
     "xfetch-js": "^0.6.0",
     "zod": "^3.22.2"
   },
