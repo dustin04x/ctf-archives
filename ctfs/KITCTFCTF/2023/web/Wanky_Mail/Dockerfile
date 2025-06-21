@@ -1,6 +1,6 @@
 # docker build -t wanky-mail . && docker run -p 5000:5000 -p 8025:8025 wanky-mail
 
-FROM python:3.9-slim
+FROM python:3.13.5-slim
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
