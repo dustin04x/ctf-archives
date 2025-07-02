@@ -7,7 +7,7 @@
         "start": "node app.js"
     },
     "dependencies": {
-        "@apollo/server": "^4.3.0",
+        "@apollo/server": "^4.12.2",
         "cookie-parser": "~1.4.4",
         "debug": "~2.6.9",
         "dotenv": "^16.0.3",
