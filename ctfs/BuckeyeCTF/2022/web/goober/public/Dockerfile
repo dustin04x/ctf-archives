@@ -1,4 +1,4 @@
-FROM golang:1.19.2-bullseye
+FROM golang:1.25rc2-bullseye
 
 RUN apt-get update && \
     apt-get install -y libxml2 \
