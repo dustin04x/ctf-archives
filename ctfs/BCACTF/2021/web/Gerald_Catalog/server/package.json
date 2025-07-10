@@ -27,7 +27,7 @@
         "koa-bodyparser": "^4.3.0",
         "koa-passport": "^4.1.4",
         "koa-send": "^5.0.1",
-        "koa-session": "^6.2.0",
+        "koa-session": "^6.4.0",
         "koa-static": "^5.0.0",
         "node-fetch": "^2.6.1",
         "passport-local": "^1.0.0",
