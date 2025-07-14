@@ -1,4 +1,4 @@
-FROM python:3.8.16-slim-bullseye
+FROM python:3.13.5-slim-bullseye
 
 RUN apt update && apt install -y xxd
 
