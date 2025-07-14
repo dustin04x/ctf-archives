@@ -14,7 +14,7 @@
     "got": "^11.8.2",
     "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
-    "pg": "^8.7.1",
+    "pg": "^8.16.2",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
