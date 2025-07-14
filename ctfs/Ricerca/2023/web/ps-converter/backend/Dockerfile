@@ -1,4 +1,4 @@
-FROM golang:1.20.3-bullseye
+FROM golang:1.25rc2-bullseye
 
 RUN apt update -y &&\
     apt install -y ghostscript file
