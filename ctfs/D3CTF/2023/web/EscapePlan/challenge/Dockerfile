@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.13.5-alpine
 RUN apk add --no-cache gcc musl-dev linux-headers shadow
 WORKDIR /code
 RUN groupadd -r flask && useradd -r -g flask flask && chown -R flask:flask /code
