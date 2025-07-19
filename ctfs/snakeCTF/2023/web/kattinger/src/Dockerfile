@@ -1,4 +1,4 @@
-FROM ruby:3.0.6-bullseye
+FROM ruby:3.4.5-bullseye
 
 RUN gem install bundler:2.4.13
 
