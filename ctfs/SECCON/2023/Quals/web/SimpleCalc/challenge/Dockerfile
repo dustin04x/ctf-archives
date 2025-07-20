@@ -1,4 +1,4 @@
-FROM node:20.6.0-slim
+FROM node:20.19.4-slim
 ENV NODE_ENV=production
 
 RUN apt-get update \
