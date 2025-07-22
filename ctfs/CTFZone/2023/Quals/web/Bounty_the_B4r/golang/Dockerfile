@@ -3,7 +3,7 @@ WORKDIR /root
 COPY . .
 RUN go build -o bb_platform 
 
-FROM debian:latest as prod
+FROM debian:12.11 as prod
 RUN apt update && apt install -y ca-certificates
 COPY --from=build /root/bb_platform /bb_platform
 RUN chmod +x /bb_platform
