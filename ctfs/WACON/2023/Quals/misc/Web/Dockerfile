@@ -1,4 +1,4 @@
-FROM node:20.5.1
+FROM node:20.19.4
 
 COPY ./src /app
 
