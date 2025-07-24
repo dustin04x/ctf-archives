@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.13.2-alpine
 
 ARG USERNAME=app
 WORKDIR /usr/src/app
