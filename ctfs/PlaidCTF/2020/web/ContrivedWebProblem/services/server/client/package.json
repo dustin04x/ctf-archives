@@ -6,7 +6,7 @@
   "dependencies": {
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
-    "react-router": "^5.1.2",
+    "react-router": "^5.3.4",
     "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
