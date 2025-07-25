@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM golang:1.25rc2
 
 COPY ./mango /mango
 RUN chmod +x /mango
