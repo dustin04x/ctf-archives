@@ -1,4 +1,4 @@
-FROM php:8.1.18-apache-bullseye
+FROM php:8.4.11RC1-apache-bullseye
 
 RUN groupadd -r admin && useradd -r -g admin admin
 RUN groupadd -r ctf && useradd -r -g ctf ctf
