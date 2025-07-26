@@ -1,4 +1,4 @@
-FROM python:3.10-slim AS app
+FROM python:3.14.0rc1-slim AS app
 
 WORKDIR /chall
 
