@@ -1,4 +1,4 @@
-FROM python:3.11.3-bullseye
+FROM python:3.14.0rc1-bullseye
 RUN apt-get update && apt-get upgrade -y && apt-get install -y default-libmysqlclient-dev && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /app
