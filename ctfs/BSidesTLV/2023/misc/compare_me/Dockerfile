@@ -1,4 +1,4 @@
-FROM python:3-alpine as builder
+FROM python:3.14.0rc1-alpine as builder
 WORKDIR /build
 
 RUN set -eux; \
@@ -7,7 +7,7 @@ RUN set -eux; \
 COPY memcmp_all.c .
 RUN gcc -shared memcmp_all.c -o memcmp_all.so
 
-FROM python:3-alpine
+FROM python:3.14.0rc1-alpine
 
 RUN set -eux; \
     apk add --no-cache socat;
