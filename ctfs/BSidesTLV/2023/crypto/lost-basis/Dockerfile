@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.14.0rc1-alpine
 
 RUN set -eux; \
     apk add --no-cache socat;
