@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.14.0rc1-slim
 
 RUN groupadd -r ctf && useradd -r -g ctf ctf
 RUN pip install Flask
