@@ -1,4 +1,4 @@
-FROM python:3.10.5-slim-bullseye
+FROM python:3.14.0rc1-slim-bullseye
 
 RUN apt-get update -y
 RUN pip3 install -U pip
