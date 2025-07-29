@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM python:3.14.0rc1-slim
 
 RUN apt-get -y update --fix-missing
 RUN apt-get -y upgrade
