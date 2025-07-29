@@ -1,4 +1,4 @@
-FROM python:3.10-slim as common
+FROM python:3.14.0rc1-slim as common
 
 ENV POETRY_VIRTUALENVS_IN_PROJECT=true
 ENV POETRY_NO_INTERACTION=1
