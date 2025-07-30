@@ -1,4 +1,4 @@
-FROM mysql:8.0.28-debian
+FROM mysql:8.0.43-debian
 
 COPY init/* /docker-entrypoint-initdb.d/
 COPY conns.conf /etc/mysql/conf.d/
