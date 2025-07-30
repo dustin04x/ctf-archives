@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.14.0rc1-slim
 MAINTAINER sasdf
 
 RUN apt-get update -y --fix-missing && \
