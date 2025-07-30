@@ -1,4 +1,4 @@
-FROM httpd:2.4.49
+FROM httpd:2.4.65
 
 RUN apt update && apt install libapache2-mod-security2 libapache2-mod-qos -y
 RUN rm -rf /usr/share/modsecurity-crs/rules/*
