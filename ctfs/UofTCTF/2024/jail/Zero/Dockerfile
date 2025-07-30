@@ -1,4 +1,4 @@
-FROM python:3.10.13-slim-bullseye
+FROM python:3.14.0rc1-slim-bullseye
 
 RUN apt-get update && apt-get install -y socat && rm -rf /var/lib/apt/lists/*
 
