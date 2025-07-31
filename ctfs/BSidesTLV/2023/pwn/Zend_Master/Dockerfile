@@ -23,7 +23,7 @@ RUN set -eux; \
     make -j$(nproc); \
     make install
 
-FROM python:3.11-slim
+FROM python:3.14.0rc1-slim
 
 ARG USERNAME=app
 WORKDIR /usr/src/app
