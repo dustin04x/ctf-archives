@@ -1,7 +1,7 @@
 # docker build -t one-true-pairing . && docker run -p 1337:1337 one-true-pairing
 # stub the unknown parts from secret.py with reasonable replacements to test locally
 
-FROM python:3.9-slim
+FROM python:3.14.0rc1-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 
