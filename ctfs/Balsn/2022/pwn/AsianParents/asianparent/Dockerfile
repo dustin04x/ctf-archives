@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 RUN apt-get update
 RUN apt-get install xinetd libseccomp-dev -y
 RUN useradd -m asianparent
