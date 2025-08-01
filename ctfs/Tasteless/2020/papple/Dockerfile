@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y install build-essential git autoconf xorg-dev libsdl2-dev xvfb x11vnc python
 RUN git clone --depth 1 https://github.com/kanjitalk755/macemu.git
