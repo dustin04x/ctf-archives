@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN apt-get update && apt-get install -y xinetd libssl1.1 && rm -rf /var/lib/apt/lists/*
 
