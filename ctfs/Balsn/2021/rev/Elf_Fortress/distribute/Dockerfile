@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER James
 
 ENV DEBIAN_FRONTEND noninteractive
