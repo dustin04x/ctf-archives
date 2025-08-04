@@ -1,4 +1,4 @@
-from ubuntu:latest
+from ubuntu:24.10
 
 RUN apt update -y && apt install -y npm curl wget
 RUN  npm cache clean -f
