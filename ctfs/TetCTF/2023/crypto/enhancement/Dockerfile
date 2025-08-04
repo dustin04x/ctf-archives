@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN apt-get -y update && apt-get install -y
 RUN apt-get -y install g++ cmake socat
