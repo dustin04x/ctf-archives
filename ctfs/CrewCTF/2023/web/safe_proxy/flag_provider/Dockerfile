@@ -1,7 +1,7 @@
 ARG DENO_VERSION=1.32.3
 
 FROM denoland/deno:bin-$DENO_VERSION AS deno
-FROM ubuntu
+FROM ubuntu:24.10
 COPY --from=deno /deno /usr/local/bin/deno
 
 RUN useradd app
