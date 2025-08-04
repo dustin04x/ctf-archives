@@ -3,7 +3,7 @@ FROM openjdk:8 as jdk_env
 FROM gcc:8  as compile_env
 COPY ./readflag.c /tmp
 RUN cd /tmp &&  gcc readflag.c -o readflag
-FROM ubuntu
+FROM ubuntu:24.10
 
 ENV DRUID_VERSION="25.0.0" \
     JAVA_HOME="/opt/jdk"
