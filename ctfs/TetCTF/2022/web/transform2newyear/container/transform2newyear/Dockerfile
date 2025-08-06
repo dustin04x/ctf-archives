@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER peterjson
 
 RUN apt-get update -y && apt-get upgrade -y && apt-get install supervisor openjdk-8-jre-headless -y
