@@ -2,7 +2,7 @@
   "dependencies": {
     "@fastify/session": "^8.0.0",
     "bcrypt": "^5.0.1",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.10",
     "fastify": "^3.27.4",
     "fastify-cookie": "^5.6.0",
     "fastify-file-upload": "^3.0.1",
