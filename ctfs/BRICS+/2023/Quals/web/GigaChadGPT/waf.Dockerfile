@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine
+FROM golang:1.25rc3-alpine
 
 COPY waf /waf
 
