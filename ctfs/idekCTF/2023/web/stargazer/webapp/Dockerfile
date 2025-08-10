@@ -1,4 +1,4 @@
-FROM golang:1.19-bullseye
+FROM golang:1.25rc3-bullseye
 
 RUN apt update 
 RUN apt install -y apache2 curl
