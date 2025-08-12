@@ -3,7 +3,7 @@
   "author": "renbou",
   "type": "module",
   "dependencies": {
-    "puppeteer": "^21.3.4",
+    "puppeteer": "^21.11.0",
     "redis": "^4.6.10"
   }
 }
