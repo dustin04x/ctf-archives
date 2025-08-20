@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0rc2
 
 RUN useradd -m ctf
 
