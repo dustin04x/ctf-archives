@@ -9,7 +9,7 @@
     "ffmpeg": "^0.0.4",
     "jsonwebtoken": "^9.0.0",
     "multer": "^1.4.5-lts.1",
-    "mysql2": "^3.3.0",
+    "mysql2": "^3.14.3",
     "node-cron": "^3.0.2",
     "puppeteer": "^20.2.0",
     "sequelize": "^6.31.1",
