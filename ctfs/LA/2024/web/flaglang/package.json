@@ -11,6 +11,6 @@
   "dependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
-    "yaml": "^2.3.4"
+    "yaml": "^2.8.1"
   }
 }
