@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "axios": "^0.26.1",
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.10",
     "express": "^4.17.3",
     "uuid": "^8.3.2"
   },
