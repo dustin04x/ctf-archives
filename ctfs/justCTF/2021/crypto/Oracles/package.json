@@ -9,7 +9,7 @@
     "body-parser": "^1.19.0",
     "debug": "~2.6.9",
     "ejs": "2.5.7",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "pug": "2.0.4",
     "http-errors": "~1.6.3",
     "morgan": "^1.9.1",
