@@ -8,7 +8,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "debug": "~2.6.9",
-    "ejs": "2.5.7",
+    "ejs": "2.7.4",
     "express": "^4.17.1",
     "pug": "2.0.4",
     "http-errors": "~1.6.3",
