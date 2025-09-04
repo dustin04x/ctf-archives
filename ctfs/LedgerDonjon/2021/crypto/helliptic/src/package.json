@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.6.1",
     "express": "^4.17.1",
     "joi": "^17.3.0",
     "x509": "^0.3.4"
