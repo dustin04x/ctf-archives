@@ -1,5 +1,5 @@
 ARG BUILDER_IMAGE=debian:bookworm
-ARG BASE_IMAGE=node:20.9.0-bookworm
+ARG BASE_IMAGE=node:20.19.5-bookworm
 FROM $BUILDER_IMAGE AS ripes-builder
 
 ARG DEBIAN_FRONTEND=noninteractive
