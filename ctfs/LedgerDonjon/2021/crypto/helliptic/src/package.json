@@ -6,7 +6,7 @@
   "dependencies": {
     "elliptic": "^6.5.3",
     "express": "^4.17.1",
-    "joi": "^17.3.0",
+    "joi": "^17.13.3",
     "x509": "^0.3.4"
   },
   "devDependencies": {},
