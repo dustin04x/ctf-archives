@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "@koa/router": "^10.0.0",
-        "canvas": "^2.8.0",
+        "canvas": "^2.11.2",
         "handlebars": "^4.7.7",
         "koa": "^2.13.1",
         "koa-bodyparser": "^4.3.0",
