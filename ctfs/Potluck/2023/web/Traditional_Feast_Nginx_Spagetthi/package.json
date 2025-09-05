@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "njs-types": "^0.8.2"
+    "njs-types": "^0.9.1"
   },
   "devDependencies": {
   }
