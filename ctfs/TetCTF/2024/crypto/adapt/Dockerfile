@@ -1,4 +1,4 @@
-FROM golang:1.21.5-bookworm
+FROM golang:1.25.1-bookworm
 
 RUN apt update && apt install -y socat
 
