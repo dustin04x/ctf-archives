@@ -1,4 +1,4 @@
-FROM node:20.6.0-slim
+FROM node:20.19.5-slim
 WORKDIR /app
 
 RUN apt-get update && apt-get install -yq socat procps
