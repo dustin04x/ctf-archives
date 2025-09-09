@@ -1,4 +1,4 @@
-FROM node:20.2.0-alpine
+FROM node:20.19.5-alpine
 
 RUN apk update && apk upgrade
 RUN apk add chromium 
