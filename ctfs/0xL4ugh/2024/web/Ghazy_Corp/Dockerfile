@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.3.25-apache
 
 RUN apt update && apt -y install mariadb-server && apt-get install -y libpng-dev nano
 RUN docker-php-ext-install mysqli
