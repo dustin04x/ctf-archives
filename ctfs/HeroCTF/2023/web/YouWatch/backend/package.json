@@ -14,6 +14,6 @@
     "puppeteer": "^20.2.0",
     "sequelize": "^6.31.1",
     "sha256": "^0.2.0",
-    "socket.io": "^4.6.1"
+    "socket.io": "^4.8.1"
   }
 }
