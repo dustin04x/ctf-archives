@@ -2,7 +2,40 @@
 # yarn lockfile v1
 
 
-"@editorjs/editorjs@^2.27.0":
-  version "2.27.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.27.0.tgz#ec2d6e2f42d1aa84d13eaea6a9c48b4324972c59"
-  integrity sha512-XyPnvu61Ynk4k7R/1gVYUJjrtuf9Tf0A+CZuvp2suW4z5TNHqNjBa9vRdr3ngHzhNSoZvgstrOO3zCVqVTezPg==
+"@editorjs/caret@^1.0.1":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/caret/-/caret-1.0.3.tgz#1a622d2d8ec117a724ed782e21b7c5a74c3c1401"
+  integrity sha512-VmgwQJZgL/LQjk049JunzRV1YCa0vDi+BNEpbDmr5cp3lGZllq9QQFO1eI71ZPzvFVn3vvhb+eOif4sAEyGgbw==
+  dependencies:
+    "@editorjs/dom" "^1.0.1"
+
+"@editorjs/dom@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.0.1.tgz#ace66e79096101a9767d29907468f8eb07e73693"
+  integrity sha512-yLO+86MYOIUr1Jl7SQw23SYT84ggv6aJW0EIRsI3NTHYgnQzmK7Bt2n5ZFupQlB0GJqmKqA5tCue3NKQb+o7Pw==
+  dependencies:
+    "@editorjs/helpers" "^1.0.1"
+
+"@editorjs/editorjs@^2.30.8":
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.0.tgz#fd580f030c50b7278c0c12caf0c48fd4611c2c03"
+  integrity sha512-CBcIZXtPlg0dSlC5clO9OfTCmcxelj723jd4d67teFlaFJobjjxU1PmMxFJdhaRep5+nqdD0jr+fdJBqEDqt1g==
+  dependencies:
+    "@editorjs/caret" "^1.0.1"
+    codex-notifier "^1.1.2"
+    codex-tooltip "^1.0.5"
+
+"@editorjs/helpers@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/helpers/-/helpers-1.0.1.tgz#e96f7d485c15f563e69c37bd82282c148e0187cc"
+  integrity sha512-Lmr8ImoQvoROXtzhsIJsA1ZtXzH46DmE6O8hMjn9/AvQq62UfjREjn+Ewi6KxjIZMay2PsgDEbLlsVyNJGEaxw==
+
+codex-notifier@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/codex-notifier/-/codex-notifier-1.1.2.tgz#a733079185f4c927fa296f1d71eb8753fe080895"
+  integrity sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg==
+
+codex-tooltip@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/codex-tooltip/-/codex-tooltip-1.0.5.tgz#ba25fd5b3a58ba2f73fd667c2b46987ffd1edef2"
+  integrity sha512-IuA8LeyLU5p1B+HyhOsqR6oxyFQ11k3i9e9aXw40CrHFTRO2Y1npNBVU3W1SvhKAbUU7R/YikUBdcYFP0RcJag==
