@@ -1,4 +1,4 @@
-FROM debian:bookworm-20231218
+FROM debian:12.12
 ENV DEBIAN_FRONTEND noninteractive
 RUN set -ex;\
     apt-get update;\
