@@ -12,7 +12,7 @@
   "license": "Unlicensed",
   "dependencies": {
     "express": "^4.17.1",
-    "hcaptcha": "^0.0.2",
+    "hcaptcha": "^0.2.0",
     "morgan": "^1.10.0",
     "playwright-chromium": "^1.13.0"
   }
