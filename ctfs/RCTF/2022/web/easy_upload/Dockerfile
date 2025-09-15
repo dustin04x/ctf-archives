@@ -1,4 +1,4 @@
-FROM php:8.1.9-apache
+FROM php:8.4.13RC1-apache
 RUN rm -rf /var/www/html
 COPY ./src /var/www/html
 COPY ./flag /flag
