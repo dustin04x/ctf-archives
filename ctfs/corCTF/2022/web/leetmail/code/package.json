@@ -9,7 +9,7 @@
     "fastify": "^4.3.0",
     "mailparser": "^3.5.0",
     "point-of-view": "^6.0.0",
-    "smtp-server": "^3.11.0"
+    "smtp-server": "^3.14.0"
   },
   "type": "module"
 }
