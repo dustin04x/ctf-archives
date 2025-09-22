@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fastify/static": "^5.0.2",
-    "@sinclair/typebox": "^0.23.4",
+    "@sinclair/typebox": "^0.34.41",
     "cuid": "^2.1.8",
     "fastify": "^3.27.4",
     "puppeteer": "^14.2.1"
