@@ -20,7 +20,7 @@
         "jquery": "^3.6",
         "laravel-mix": "^6.0.25",
         "resolve-url-loader": "^4.0.0",
-        "sass": "^1.35.1",
+        "sass": "^1.91.0",
         "sass-loader": "^12.1.0",
         "vue": "^2.6.14",
         "vue-google-login": "^2.0.5",
