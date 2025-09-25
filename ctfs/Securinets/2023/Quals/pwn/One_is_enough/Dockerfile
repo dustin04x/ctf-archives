@@ -1,4 +1,4 @@
-FROM ubuntu AS app
+FROM ubuntu:24.10 AS app
 
 RUN useradd -p ctf ctf
 RUN echo "ctf:ctf" | chpasswd
