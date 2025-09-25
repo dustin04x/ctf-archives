@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER ddaa
 RUN apt update -y
 RUN apt install libwrap0-dev libldap2-dev -y
