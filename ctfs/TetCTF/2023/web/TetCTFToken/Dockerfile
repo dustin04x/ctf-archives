@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 RUN apt-get update && apt-get install python3 python3-pip libcurl4-openssl-dev libssl-dev -y
 COPY ./flag.txt /flag.txt
 COPY ./TetCTFToken /home/TetCTFToken
