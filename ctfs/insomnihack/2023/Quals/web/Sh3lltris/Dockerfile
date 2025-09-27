@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 WORKDIR /chat_server
 COPY chat_server.x86_64 .
