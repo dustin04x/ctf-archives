@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 
 RUN mkdir -p /srv/app/
 WORKDIR /srv/app/
