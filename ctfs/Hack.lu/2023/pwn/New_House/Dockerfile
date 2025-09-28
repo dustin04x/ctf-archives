@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 
 RUN mkdir /chall
 ADD flag.txt run.sh ld.so.2 libc.so.6 new_house ynetd /chall/
