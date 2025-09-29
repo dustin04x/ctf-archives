@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER peternguyen
 RUN apt-get update
 RUN apt-get install socat python3 libssl-dev libcap2-bin libcap-ng-utils -y
