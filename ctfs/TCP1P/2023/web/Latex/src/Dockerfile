@@ -9,7 +9,7 @@ RUN go mod download
 COPY . .
 RUN CGO_ENABLED=1 go build -o latex
 
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 WORKDIR /app
 RUN apt update -y
