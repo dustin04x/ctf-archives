@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.5.0RC1-apache
 
 # Set environment variables
 ENV MYSQL_ROOT_PASSWORD=PASSWORD
