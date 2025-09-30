@@ -1,4 +1,4 @@
-FROM ubuntu as chroot
+FROM ubuntu:24.10 as chroot
 
 RUN /usr/sbin/useradd --no-create-home -u 1000 user
 RUN apt update -y
