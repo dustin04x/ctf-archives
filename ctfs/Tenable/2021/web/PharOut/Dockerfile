@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 run apt update
 RUN DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends apache2 php7.4
 RUN rm -rf /var/lib/apt/lists/*
