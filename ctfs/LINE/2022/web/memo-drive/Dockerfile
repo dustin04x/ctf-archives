@@ -1,4 +1,4 @@
-FROM python:3.9.0
+FROM python:3.14.0rc3
 
 LABEL maintainer "t0rchwo0d_LINE"
 
