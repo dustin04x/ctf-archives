@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 MAINTAINER i@shiki7.me 
 
 # Prepare environment and install required packages
