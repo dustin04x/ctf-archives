@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN useradd -m ctf
 WORKDIR /home/ctf
