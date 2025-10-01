@@ -1,5 +1,5 @@
 # Install mysqli to make php interact with mysql
-FROM php:8.1.1-apache
+FROM php:8.5.0RC1-apache
 
 # Install zip
 RUN apt-get update && apt-get install -y \
