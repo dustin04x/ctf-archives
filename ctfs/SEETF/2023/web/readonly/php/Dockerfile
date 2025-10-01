@@ -1,4 +1,4 @@
-FROM php:8.1.0-fpm
+FROM php:8.5.0RC1-fpm
 
 COPY ./app /app
 
