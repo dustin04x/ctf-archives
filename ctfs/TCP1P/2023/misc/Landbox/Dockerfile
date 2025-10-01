@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN apt-get -y update
 RUN apt-get -y install lua5.4 socat
