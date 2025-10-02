@@ -1,4 +1,4 @@
-FROM php:8.0.2-apache
+FROM php:8.5.0RC1-apache
 
 WORKDIR /opt
 
