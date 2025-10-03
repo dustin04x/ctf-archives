@@ -1,6 +1,6 @@
 # docker build -t honk-honk . && docker run --rm -it -p1024:1024 honk-honk
 # ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ctf@127.0.0.1 -p 1024
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 RUN apt-get update
 
