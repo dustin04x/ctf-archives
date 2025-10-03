@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "socket.io-client": "^4.7.2",
-    "socket.io-react-hook": "^2.4.1"
+    "socket.io-react-hook": "^2.4.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
