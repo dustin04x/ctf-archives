@@ -1,4 +1,4 @@
-FROM python:3.11.1
+FROM python:3.14.0rc3
 
 RUN /usr/sbin/useradd -u 1000 user
 
