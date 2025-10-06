@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0rc3
 
 RUN mkdir -p /usr/src/app
 RUN pip3 install flask
