@@ -1,4 +1,4 @@
-FROM python:3.11.2
+FROM python:3.14.0rc3
 
 RUN apt-get update 
 
