@@ -9,7 +9,7 @@ RUN set -eux; \
     go build
 
 
-FROM alpine:3.16 as core
+FROM alpine:3.18.12 as core
 
 ARG USERNAME=app
 WORKDIR /usr/src/app
