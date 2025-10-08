@@ -6,7 +6,7 @@ RUN apk add --no-cache nodejs npm
 RUN cd /project && npm i && \
     forge build --out /artifacts/out --cache-path /artifacts/cache
 
-FROM python:3.11.7-slim as challenge
+FROM python:3.14.0-slim as challenge
 
 RUN apt-get update && \
     apt-get install -y curl git socat && \
