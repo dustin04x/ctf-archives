@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.14.0-slim
 
 RUN pip3 install pycryptodome py_ecc gmpy2
 RUN groupadd -r crypto && useradd -r -u 1001 -g crypto crypto
