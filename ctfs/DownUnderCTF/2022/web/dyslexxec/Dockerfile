@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.14.0-alpine
 RUN echo 'DUCTF{test_flag}:x:1001:1001::/tmp:/bin/false' >> /etc/passwd
 WORKDIR /code
 RUN mkdir uploads/
