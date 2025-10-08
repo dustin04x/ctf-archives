@@ -1,4 +1,4 @@
-FROM python:3.11-alpine
+FROM python:3.14.0-alpine
 
 RUN apk --update add socat \
 	&& adduser -D --home /app user
