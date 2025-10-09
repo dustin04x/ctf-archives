@@ -7,7 +7,7 @@ WORKDIR /build
 
 RUN nim c -d:release main.nim
 
-FROM alpine:3.17
+FROM alpine:3.18.12
 
 RUN apk add --no-cache sqlite-libs
 RUN mkdir /data
