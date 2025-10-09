@@ -8,6 +8,6 @@ COPY . /app
 RUN npm run build --prod
 
 # Stage 2
-FROM nginx:1.21-alpine
+FROM nginx:1.29.2-alpine
 COPY --from=build-step /app/dist/seoftw /usr/share/nginx/html
 COPY ./nginx-custom.conf /etc/nginx/conf.d/default.conf
