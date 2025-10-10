@@ -1,4 +1,4 @@
-FROM python:3.9.17-bookworm
+FROM python:3.14.0-bookworm
 
 RUN apt-get update && apt-get install curl unzip -y && rm -rf /var/lib/apt/lists/*
 
