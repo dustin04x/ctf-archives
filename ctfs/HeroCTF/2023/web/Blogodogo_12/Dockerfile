@@ -1,4 +1,4 @@
-FROM alpine:3.17.0
+FROM alpine:3.22.2
 
 RUN apk add --no-cache python3 py3-pip nodejs npm chromium && \
     adduser -D -u 1000 challenge
