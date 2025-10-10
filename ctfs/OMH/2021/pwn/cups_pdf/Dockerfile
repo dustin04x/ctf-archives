@@ -1,10 +1,10 @@
-FROM ubuntu AS builder
+FROM ubuntu:24.04 AS builder
 
 RUN apt-get update -y && apt-get -y install gcc
 ADD get_flag.c /
 RUN gcc /get_flag.c -o /get_flag
 
-FROM ubuntu
+FROM ubuntu:24.04
 
 ENV TZ=UTC
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime
