@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.14.0
 
 RUN pip install --no-cache-dir gunicorn==19.9.0
 
