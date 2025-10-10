@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.04
 
 RUN apt-get -y update && DEBIAN_FRONTEND="noninteractive" TZ="Asia/Kolkata" apt-get -y -q install nginx apache2-utils spawn-fcgi fcgiwrap python3 python3-pip
 
