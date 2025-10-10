@@ -1,4 +1,4 @@
-FROM ubuntu AS app
+FROM ubuntu:24.04 AS app
 
 RUN apt-get update && apt-get install -y gcc make
 
