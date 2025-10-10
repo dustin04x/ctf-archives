@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:3.14.0
 
 RUN apt-get update -y && apt-get install -y nginx
 
