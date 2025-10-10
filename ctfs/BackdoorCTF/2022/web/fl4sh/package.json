@@ -26,6 +26,6 @@
     "mysql": "^2.18.1",
     "redis": "^4.5.1",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.34"
+    "typeorm": "^0.3.27"
   }
 }
