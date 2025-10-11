@@ -2,7 +2,7 @@
 
 # 4M
 ARG FLAG_LOCATION_PHYS=4194304
-FROM --platform=amd64 alpine:3.17 AS builder
+FROM --platform=amd64 alpine:3.22.2 AS builder
 ARG FLAG_LOCATION_PHYS
 RUN apk add --update --no-cache \
     gcc \
@@ -16,7 +16,7 @@ COPY ./ ./
 RUN make all FLAG_LOCATION_PHYS=${FLAG_LOCATION_PHYS}
 
 # The wrapper for running the OS
-FROM --platform=amd64 alpine:3.17
+FROM --platform=amd64 alpine:3.22.2
 ARG FLAG_LOCATION_PHYS
 
 RUN apk add --update --no-cache \
