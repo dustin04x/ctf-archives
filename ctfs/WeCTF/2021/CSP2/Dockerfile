@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.5.0RC2-apache
 COPY framework /var/www/html/framework
 RUN mkdir /var/www/html/tmp
 RUN chmod -R 777 /var/www/html/tmp
