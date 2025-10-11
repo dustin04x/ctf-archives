@@ -4,7 +4,7 @@ RUN for name in 'ctypes' 'pickle' 'test' 'cffi'; do \
         find /usr/local/lib/python3.11/ -name "*${name}*" -exec rm -rf '{}' '+'; \
     done
 
-FROM alpine:3.16.1
+FROM alpine:3.22.2
 
 RUN apk add coreutils
 
