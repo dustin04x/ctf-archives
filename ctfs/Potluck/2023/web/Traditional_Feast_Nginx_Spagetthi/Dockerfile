@@ -1,5 +1,5 @@
 # Use the nginx alpine image as the base
-FROM nginx:1.25.3-alpine
+FROM nginx:1.29.2-alpine
 
 
 ARG FLAG=potluck{placeholder}
