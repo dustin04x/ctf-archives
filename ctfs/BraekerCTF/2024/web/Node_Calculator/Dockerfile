@@ -1,4 +1,4 @@
-FROM tomcat:jre11
+FROM tomcat:10.1.47-jre11-temurin-noble
 
 RUN rm -rf /usr/local/tomcat/webapps/* ; \
     rm -rf /usr/local/tomcat/work/Catalina/localhost/* ; \
