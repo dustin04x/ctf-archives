@@ -1,4 +1,4 @@
-FROM golang:1.18
+FROM golang:1.25.2
 
 WORKDIR /app
 RUN go mod init app
