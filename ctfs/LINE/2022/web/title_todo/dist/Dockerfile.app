@@ -1,4 +1,4 @@
-FROM python:3.8.5
+FROM python:3.14.0
 
 COPY ./src/app /app
 
