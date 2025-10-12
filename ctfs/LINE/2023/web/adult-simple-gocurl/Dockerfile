@@ -1,4 +1,4 @@
-FROM golang:1.19
+FROM golang:1.25.2
 
 ENV FLAG = "LINECTF{redacted}"
 ENV GOCURL /usr/local/opt/gocurl
