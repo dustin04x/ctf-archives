@@ -1,4 +1,4 @@
-FROM nginx:1.23.3-alpine-slim
+FROM nginx:1.29.2-alpine-slim
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY flag.txt /usr/share/nginx/html/flag.txt
