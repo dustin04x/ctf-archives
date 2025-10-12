@@ -1,4 +1,4 @@
-FROM python:3.8.0-alpine
+FROM python:3.14.0-alpine
 RUN apk add --no-cache redis
 WORKDIR /app
 COPY requirements.txt requirements.txt
