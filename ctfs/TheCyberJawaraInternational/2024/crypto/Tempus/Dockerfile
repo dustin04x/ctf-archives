@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.14.0-slim
 
 RUN apt-get update
 RUN apt-get install -y nano socat gcc
