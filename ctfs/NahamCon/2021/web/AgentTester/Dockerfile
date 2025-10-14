@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.14.0-slim
 
 RUN apt update -y && apt install -y gcc libssl-dev nodejs npm nginx curl
 RUN apt-get -y install chromium\
