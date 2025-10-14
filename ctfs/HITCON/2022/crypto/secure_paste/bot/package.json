@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "playwright-firefox": "^1.27.1"
+    "playwright-firefox": "^1.55.1"
   },
 	"scripts": {
 		"start": "node app.js"
