@@ -1,5 +1,5 @@
 # extra step in another container to have the smallest thing running later
-FROM alpine:3.18.3 as compiler
+FROM alpine:3.22.2 as compiler
 
 RUN apk update && apk add gcc musl-dev php81-phar php81-iconv php81-openssl curl
 RUN curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ --filename=composer
@@ -13,7 +13,7 @@ COPY readflag.c /readflag.c
 RUN gcc /readflag.c -o /readflag
 
 # actually running image
-FROM alpine:3.18.3
+FROM alpine:3.22.2
 
 RUN apk update && apk add php81 php81-fpm php81-curl php81-session php81-common php81-zip php81-pdo php81-pdo_sqlite nginx supervisor
 
