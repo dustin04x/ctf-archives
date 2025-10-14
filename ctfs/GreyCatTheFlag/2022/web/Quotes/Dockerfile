@@ -1,4 +1,4 @@
-FROM python:3.8.10-slim
+FROM python:3.14.0-slim
 ADD . /app
 WORKDIR /app
 RUN apt update \
