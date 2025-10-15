@@ -4,7 +4,7 @@ WORKDIR /usr/local/go/src/
 COPY ./main ./main
 RUN cd main && go build -o gofs
 
-FROM alpine:3.13.0
+FROM alpine:3.22.2
 WORKDIR /task
 COPY --from=0 /usr/local/go/src/main/gofs /task/gofs
 COPY ./tmp /task/tmp
