@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.22.2
 
 WORKDIR /app
 RUN wget https://dl.influxdata.com/influxdb/releases/influxdb-1.8.10-static_linux_amd64.tar.gz
