@@ -1,4 +1,4 @@
-FROM golang:1.14
+FROM golang:1.25.3
 
 WORKDIR /workspace
 COPY . /workspace
