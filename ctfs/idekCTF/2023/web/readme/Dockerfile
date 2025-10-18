@@ -1,4 +1,4 @@
-FROM golang:1.19-alpine
+FROM golang:1.25.3-alpine
 
 ENV LISTEN_ADDR=":1337"
 ENV FLAG="idek{FAKE_FLAG}"
