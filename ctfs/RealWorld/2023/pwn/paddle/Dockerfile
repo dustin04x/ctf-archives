@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.14.0-slim
 RUN apt-get update && \
     apt-get install libgomp1 && \
     rm -rf /var/lib/apt/lists/*
