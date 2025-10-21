@@ -1,4 +1,4 @@
-FROM httpd:latest
+FROM httpd:2.4.65-trixie
 
 COPY flag.txt /flag.txt
 
