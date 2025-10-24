@@ -11,7 +11,7 @@
     "fastify-static": "^4.6.1",
     "middie": "^5.4.0",
     "point-of-view": "^5.2.0",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.1.7"
   },
   "scripts": {
     "start": "node index.js",
