@@ -16,7 +16,7 @@
         "lodash": "^4.17.19",    
         "@popperjs/core": "^2.9.2",
         "axios": "^0.21",
-        "bootstrap": "^5.0.0",
+        "bootstrap": "^5.3.8",
         "jquery": "^3.6",
         "laravel-mix": "^6.0.25",
         "resolve-url-loader": "^4.0.0",
