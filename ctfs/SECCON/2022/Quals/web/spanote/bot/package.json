@@ -4,6 +4,6 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "puppeteer": "^19.2.0"
+    "puppeteer": "^19.11.1"
   }
 }
