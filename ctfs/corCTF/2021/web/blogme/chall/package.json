@@ -19,6 +19,6 @@
     "express-session-sequelize": "^2.3.0",
     "node-fetch": "^2.6.1",
     "sequelize": "^6.6.5",
-    "sqlite3": "^5.0.2"
+    "sqlite3": "^5.1.7"
   }
 }
