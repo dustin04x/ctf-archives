@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "fastify": "^3.17.0",
-    "fastify-cookie": "^5.3.1",
+    "fastify-cookie": "^5.6.1",
     "fastify-session": "^5.2.1"
   }
 }
