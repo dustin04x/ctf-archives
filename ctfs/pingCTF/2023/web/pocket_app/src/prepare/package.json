@@ -9,6 +9,6 @@
   "author": "tomek7667",
   "license": "ISC",
   "dependencies": {
-    "sqlite3": "5.1.6"
+    "sqlite3": "5.1.7"
   }
 }
